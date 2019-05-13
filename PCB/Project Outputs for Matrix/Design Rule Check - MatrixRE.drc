@@ -1,9 +1,9 @@
 Protel Design System Design Rule Check
-PCB File : D:\Documents\GitHub\Matrix\Hardware\PCB\MatrixRE.PcbDoc
-Date     : 2/15/2019
-Time     : 2:01:45 AM
+PCB File : D:\Documents\GitHub\Matrix Hardware\PCB\MatrixRE.PcbDoc
+Date     : 5/2/2019
+Time     : 11:19:11 PM
 
-Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InPadClass('All Pads')),(InNet('No Net'))
@@ -13,30 +13,40 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net Analog0 Between Pad MCU-14(117.25mm,186.475mm) on Bottom Layer And Pad TouchBar1-2(169.5mm,38mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Analog1 Between Pad MCU-15(116.75mm,186.475mm) on Bottom Layer And Pad TouchBar1-3(168.5mm,38mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Analog2 Between Pad MCU-16(116.25mm,186.475mm) on Bottom Layer And Pad TouchBar1-4(167.5mm,38mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Analog3 Between Pad MCU-17(114.475mm,188.25mm) on Bottom Layer And Pad TouchBar1-5(166.5mm,38mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Analog4 Between Pad TouchBar2-2(73.5mm,38mm) on Bottom Layer And Pad MCU-20(114.475mm,189.75mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Analog5 Between Pad TouchBar2-3(72.5mm,38mm) on Bottom Layer And Pad MCU-21(114.475mm,190.25mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Analog6 Between Pad TouchBar2-4(71.5mm,38mm) on Bottom Layer And Pad MCU-22(114.475mm,190.75mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Analog7 Between Pad TouchBar2-5(70.5mm,38mm) on Bottom Layer And Pad MCU-23(114.475mm,191.25mm) on Bottom Layer 
+Rule Violations :8
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=1mil) (Max=100mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=0.025mm) (Max=2.54mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (Disabled)(All)
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (Disabled)(All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Track (120.25mm,212.03mm)(122.053mm,212.03mm) on Bottom Layer 
+   Violation between Net Antennae: Track (120.775mm,212.485mm)(121.864mm,212.485mm) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
-Rule Violations :0
 
-
-Violations Detected : 0
+Violations Detected : 10
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:04

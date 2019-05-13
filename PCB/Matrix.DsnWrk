@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=Matrix.PrjPCB
 [Project2]
 ProjectPath=lib\203.LibPkg
+[Project3]
+ProjectPath=..\..\Core\Hardware\Core.PrjPCB
