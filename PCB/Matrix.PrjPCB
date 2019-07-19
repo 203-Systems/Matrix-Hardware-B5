@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FXUTLVWW
 
 [Document3]
-DocumentPath=TouchBarDualLayer - 4 segment.PcbDoc
+DocumentPath=TouchBarSingalLayer - 4 segment.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -158,6 +158,26 @@ DocumentUniqueId=XLMLVBNL
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Matrix\Design Rule Check - MatrixRE.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=MatrixRE 7-8-2019 9-33-15 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=MatrixRE 7-8-2019 9-39-18 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=MatrixRE 7-8-2019 9-40-13 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=MatrixRE 7-8-2019 9-40-22 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=MatrixRE 7-8-2019 9-40-30 PM.WAS
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1209,7 +1229,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=1
+SortOrder=3
 SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
