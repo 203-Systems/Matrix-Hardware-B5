@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\Documents\GitHub\Matrix Hardware\PCB\MatrixRE.PcbDoc
-Date     : 7/8/2019
-Time     : 11:51:28 PM
+PCB File : C:\Users\caine\Documents\GitHub\Matrix-Hardware\PCB\MatrixRE.PcbDoc
+Date     : 7/30/2019
+Time     : 5:40:04 PM
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
@@ -10,7 +10,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InPadClass('All Pads')
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Polygon Region (745 hole(s)) Bottom Layer And Text "thank you for playing my game" (129.4mm,68.75mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (739 hole(s)) Bottom Layer And Text "thank you for playing my game" (129.4mm,68.75mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
 Rule Violations :1
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
@@ -40,4 +40,4 @@ Rule Violations :0
 
 Violations Detected : 1
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:01

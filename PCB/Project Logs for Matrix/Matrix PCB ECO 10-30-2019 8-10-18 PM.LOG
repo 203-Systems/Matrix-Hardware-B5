@@ -1,0 +1,12 @@
+Change Net Name : Old Net Name=TouchClock New Net Name=PA7
+Change Net Name : Old Net Name=TouchData New Net Name=TouchDV
+Added Pin To Net: NetName=NetPDS_3 Pin=PDS-3
+Added Pin To Net: NetName=NetPDS_3 Pin=R3-2
+Added Net: Name=NetPDS_3
+Added Pin To Net: NetName=NetPDS_4 Pin=PDS-4
+Added Pin To Net: NetName=NetPDS_4 Pin=R2-2
+Added Net: Name=NetPDS_4
+Added Pin To Net: NetName=PB8 Pin=MCU-61
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB9 Pin=MCU-62
+Added Net: Name=PB9
